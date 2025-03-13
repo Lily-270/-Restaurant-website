@@ -1,7 +1,7 @@
 export default function Specials() {
     return (
         <>
-            <div className="container custom-section" style={{ padding: "20px" , margin: "0" }}>
+            <div className="container custom-section" style={{ padding: "20px" , margin: "0" , backgroundColor: "#FEDC97"}}>
                 <div className="row" style={{ marginBottom: "20px" }}>
                     <div className="col-md-3">
                         <h1 className="fw-bold" style={{ align:"left"}} >Specials</h1>

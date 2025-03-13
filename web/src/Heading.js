@@ -4,7 +4,7 @@ export default function Header() {
 <>
   <div
     className="container custom-section"
-    style={{ padding: "20px", margin: "20px auto" }} 
+    style={{ padding: "20px", margin: "20px auto" , backgroundColor: "#495E57" }} 
   >
     <div className="row align-items-center">
       <div className="col-md-6">
