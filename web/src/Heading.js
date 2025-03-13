@@ -8,9 +8,9 @@ export default function Header() {
   >
     <div className="row align-items-center">
       <div className="col-md-6">
-        <h1 className="fw-bold" style={{ marginBottom: "10px" }}>Little Lemon</h1>
-        <h3 className="text-muted" style={{ marginBottom: "10px" }}>Chicago</h3>
-        <p style={{ marginBottom: "15px" }}>
+        <h1 className="fw-bold" style={{ marginBottom: "10px" ,color:"white" }}>Little Lemon</h1>
+        <h3 className="fw-bold" style={{ marginBottom: "10px", color: "#E4C142" }}>Chicago</h3>
+        <p style={{ marginBottom: "15px" ,color:"white"}}>
         Welcome to Little Lemon Restaurant!
         We offer a warm atmosphere and authentic Mediterranean cuisine. 
          Our charming decor and vibrant flavors promise a delightful dining 
