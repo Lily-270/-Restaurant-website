@@ -9,4 +9,8 @@
     color: black;
     font-weight: bold;
   }
+
+a:hover{
+  color:rgb(255, 255, 255);
+}
   
