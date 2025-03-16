@@ -3,7 +3,7 @@ export default function Nav() {
         <>
         <nav className="navbar navbar-expand-lg bg-body-tertiary">
           <div className="container-fluid">
-            <a className="navbar-brand" href="#">
+            <a className="navbar-brand" href="/">
               <img src="https://restaurant-landing.pages.dev/letas.png" alt="Logo" width="120" height="30" className="d-inline align-text-top" />
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -12,22 +12,22 @@ export default function Nav() {
             <div className="collapse navbar-collapse justify-content-center" id="navbarNav">
               <ul className="navbar-nav">
                 <li className="nav-item">
-                  <a className="nav-link active" aria-current="page" href="#">Home</a>
+                  <a className="nav-link active" aria-current="page" href="/">Home</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">About</a>
+                  <a className="nav-link" href="/about">About</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Menu</a>
+                  <a className="nav-link" href="/menu">Menu</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Reservations</a>
+                  <a className="nav-link" href="/reservations">Reservations</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Order online</a>
+                  <a className="nav-link" href="/order-online">Order online</a>
                 </li>
                 <li className="nav-item">
-                  <a className="nav-link" href="#">Login</a>
+                  <a className="nav-link" href="/login">Login</a>
                 </li>
               </ul>
             </div>
