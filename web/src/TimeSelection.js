@@ -62,6 +62,13 @@ const TimeSelection = () => {
     
     return (
         <div className="container mt-2 text-left">
+                        <label className="form-label mt-3">Select a date</label>
+            <input
+                type="date"
+                className="form-control"
+                value={selectedDate}
+                onChange={(e) => setSelectedDate(e.target.value)}
+            />
             <label className="form-label">Choose a time</label>
             <div className="d-flex flex-row flex-wrap">
                 {times.map((time) => (
@@ -90,13 +97,6 @@ const TimeSelection = () => {
                     Add Time
                 </button>
             </div>
-            <label className="form-label mt-3">Select a date</label>
-            <input
-                type="date"
-                className="form-control"
-                value={selectedDate}
-                onChange={(e) => setSelectedDate(e.target.value)}
-            />
         </div>
     );
 };
